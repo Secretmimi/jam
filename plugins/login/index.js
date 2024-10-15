@@ -2,19 +2,20 @@ module.exports = function ({ application, dispatch }) {
   /**
    * Handles the login message.
    */
-  const handleLoginMessage = ({ message }) => {
+  const handleLoginMessage = ({ message, clientId }) => {
     const { params } = message.value.b.o
 
-    dispatch.setState('player', params)
+    // Store the player's data associated with the clientId
+    dispatch.setState(clientId, 'player', params)
 
     application.consoleMessage({
-      message: 'Successfully logged in!',
-      type: 'action'
+      message: `Successfully logged in as <highlight>${params.userName}</highlight>`,
+      type: 'celebrate'
     })
   }
 
   /**
-   * Hoooks the login packet.
+   * Hooks the login packet.
    */
   dispatch.onMessage({
     type: 'aj',
