@@ -5,10 +5,14 @@
 Jam is a modular man-in-the-middle proxy designed for [Animal Jam Classic](https://classic.animaljam.com). Built with [Node.js](https://nodejs.org) and [Electron](https://www.electronjs.org), Jam provides powerful tools and flexibility for your Animal Jam experience.
 
 ## Features
-
 - **Modular Architecture:** Extend and customize your proxy setup with various plugins.
 - **User-Friendly Interface:** Developed with Electron for a seamless desktop experience.
 - **Active Development:** Regular updates and community support.
+**NEW**
+- **Multi-Client Support:** Manage multiple game clients at once with per-client state management and individualized control.
+- **Per-Client State Management:** Each client maintains its own state, allowing for personalized settings and actions.
+- **Advanced Networking Controls:** Attach networking events and hooks per client for fine-grained control.
+
 
 ## Table of Contents
 
