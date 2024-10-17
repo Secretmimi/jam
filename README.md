@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/faTtK16.png" alt="Jam Logo" width="28%" />
+  <img src="https://i.imgur.com/faTtK16.png" alt="Jam Logo" width="78%" />
 </div>
 
 Jam is a modular man-in-the-middle proxy designed for [Animal Jam Classic](https://classic.animaljam.com). Built with [Node.js](https://nodejs.org) and [Electron](https://www.electronjs.org), Jam provides powerful tools and flexibility for your Animal Jam experience.
